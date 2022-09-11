@@ -1,35 +1,43 @@
-# Command line
+# Headings
+***
 
-A command line, or terminal, is a text based interface to the system. 
+-number # = Heading level
+-Altnerative Syntax
+  - ===== is level 1 heading
+  - ----- is level 2 heading
+# Paragraphs
+- Blank line will separate one or more lines
+- In order to start a sentence with an indentation type in &npsp;
 
-1. First command line arguments OR option: -l
+# Bold
+- two asterisks or underscore will create bold text
 
-< is used to modify the behaviour of the command 
+# Italic
+-single asterisk or single underscore will italicize the word
 
-< usually listed before other arguments
+# Bold and Italic
+-three asterisks, three underscore, two underscores and one asterisk, two asterisks and one underscore
 
-< start with a dash (-)
+# Blockquote
+- > will create a blockquote
+-For multiple paragraphs, add blockquote in front of every line including the space between paragraphs
+-other elements can be added after the blockquote sign
 
-2. out put of running the command.
+# Nested Blockquotes
+-doulbe or triple > signs  following a paragraph with one less sign will create a nested blockquote
 
-3. prompt again: after the command has run and the terminal is ready for a new command
+# Lists
+-Ordered Lists
+  - start each line with  numbers. Indented number will created indented item.
+  
+-Unordered lists
+  - asterisk, hyphen, plus will create unordered list
+  
+# Code
+- backticks will denote a code, double backticks will escape the word from a code
 
-# Opening a terminal
+*Horizzontal rules
+- three asterisks, hypens, or underscores
 
-Applications -> Utilities
-
-# The Shell, Bash
-
-Shell: is within a terminal, defines how the terminal will behave, and running commands for you
-
-Bash: Bourne again shell, one of the most common shell
-
-Echo a shell: if you want to know which shell you are using, use the command **_Echo_**
-
-for example: echo $SHELL, then the sceen will show something that ends in bash: for example: /bin/bash
-
-# Shortcuts
-
-using up and down arrow keys to traverse historical commands
-
-using left and right arrow keys to move the cursor 
+*Link
+- [text](url)
