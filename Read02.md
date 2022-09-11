@@ -1,43 +1,43 @@
-# Headings
-***
+# Linux Tutorial 1. Command line
 
--number # = Heading level
--Altnerative Syntax
-  - ===== is level 1 heading
-  - ----- is level 2 heading
-# Paragraphs
-- Blank line will separate one or more lines
-- In order to start a sentence with an indentation type in &npsp;
+== Command line
 
-# Bold
-- two asterisks or underscore will create bold text
+A command line, or terminal, is a text based interface to the system.
 
-# Italic
--single asterisk or single underscore will italicize the word
+1. First command line arguments OR option: -l
 
-# Bold and Italic
--three asterisks, three underscore, two underscores and one asterisk, two asterisks and one underscore
+< is used to modify the behaviour of the command
 
-# Blockquote
-- > will create a blockquote
--For multiple paragraphs, add blockquote in front of every line including the space between paragraphs
--other elements can be added after the blockquote sign
+< usually listed before other arguments
 
-# Nested Blockquotes
--doulbe or triple > signs  following a paragraph with one less sign will create a nested blockquote
+< start with a dash (-)
 
-# Lists
--Ordered Lists
-  - start each line with  numbers. Indented number will created indented item.
-  
--Unordered lists
-  - asterisk, hyphen, plus will create unordered list
-  
-# Code
-- backticks will denote a code, double backticks will escape the word from a code
+2. Out put of running the command.
 
-*Horizzontal rules
-- three asterisks, hypens, or underscores
+3. Prompt again: after the command has run and the terminal is ready for a new command
 
-*Link
-- [text](url)
+== Opening a terminal
+
+Applications -> Utilities
+
+== The Shell, Bash
+
+Shell: is within a terminal, defines how the terminal will behave, and running commands for you
+
+Bash: Bourne again shell, one of the most common shell
+
+Echo a shell: if you want to know which shell you are using, use the command **_Echo_**
+
+for example: echo $SHELL, then the sceen will show something that ends in bash: for example: /bin/bash
+
+== Shortcuts
+
+using up and down arrow keys to traverse historical commands
+
+using left and right arrow keys to move the cursor
+
+Linux Tutorial 2. Navigation
+
+# Where are we?
+
+==
