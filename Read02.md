@@ -36,10 +36,11 @@ using up and down arrow keys to traverse historical commands
 
 using left and right arrow keys to move the cursor
 
-Linux Tutorial 2. Navigation
+# Linux Tutorial 2. Navigation
 
-# Where are we?
+## Where are we?
 
-##
+
+
 
 
