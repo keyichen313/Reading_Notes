@@ -1,6 +1,6 @@
 # Linux Tutorial 1. Command line
 
-== Command line
+## Command line
 
 A command line, or terminal, is a text based interface to the system.
 
@@ -16,11 +16,11 @@ A command line, or terminal, is a text based interface to the system.
 
 3. Prompt again: after the command has run and the terminal is ready for a new command
 
-== Opening a terminal
+## Opening a terminal
 
 Applications -> Utilities
 
-== The Shell, Bash
+## The Shell, Bash
 
 Shell: is within a terminal, defines how the terminal will behave, and running commands for you
 
@@ -30,7 +30,7 @@ Echo a shell: if you want to know which shell you are using, use the command **_
 
 for example: echo $SHELL, then the sceen will show something that ends in bash: for example: /bin/bash
 
-== Shortcuts
+## Shortcuts
 
 using up and down arrow keys to traverse historical commands
 
@@ -41,3 +41,4 @@ Linux Tutorial 2. Navigation
 # Where are we?
 
 ==
+
