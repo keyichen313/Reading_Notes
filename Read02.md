@@ -145,6 +145,52 @@ programs. (You may not have permission to look at everything in this directory. 
 
 /usr/bin - Another location for programs on the system.
 
+# Linux Tutorial 3. More About Files
+
+## Everything is a File
+
+## Linux is an Extensionless System
+
+1. Linux ignores the extension and looks inside the files to determine what type of file it is. (Regardless how I change the extension of the file, Linux will make its own decision base on the fact)
+
+2. file[path]: to find out the real type
+    
+    a path is a means to get to a particular location in the system and that location is a file.
+
+## Lunix is Case Sensitive
+
+## Spaces in Names
+
+Example: Holiday Photos is a name of a file, to access it, the following is wrong:
+
+cd Holiday Photos 
+Because command cd only recognized the first command line argument only
+
+Two ways to fix it:
+    1. Quote: anything inside a single quotes is considered one item 'Holiday Photos'
+
+    Ex: cd 'Holiday Photos'
+        pwd
+        /home/ryan/Documents/holiday Photos
+
+    2. Escape Characters with Backslash (\) nullify the special meaning of the next character
+
+    Ex: cd Holiday\ Photos
+        pwd
+        /home/ryan/Documents/Holiday Photos
+
+        the special meaning of the space which is to separate them as distinct command line argument is removed.
+
+## Hidden files and Directories
+
+1. hidden file's name: . + file/directory's name
+    (* starts with a . (full stop))
+
+    we can rename a file to hide it
+
+    ls will not list the hidden file
+
+2. ls -a: will show the hidden file
 
 
 
