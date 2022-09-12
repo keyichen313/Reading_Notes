@@ -2,7 +2,7 @@
 
 - make change
 
-- on your computer top bar, chose File->Save (unless you set it to Auto Save already)
+- on your computer top bar, chose Fil->Save (unless you set it to Auto Save already)
 
 - type in your local VS Code's Terminal: git status
 if it is red color, then you need to save it again by doing git add .; if it is green color, it is already saved successfully.
@@ -16,11 +16,22 @@ if it is red color, then you need to save it again by doing git add .; if it is 
 - type in your local VS Code's Terminal: git push origin main
 (push change into GitHub finally)
 
-2. How to insert a photo?
+2.How to insert a photo?
   ![Description of what you want to show in your website link](./Your Photo Name Here.JPG)
 
-3. How to go back to home page?
+3.How to go back to home page?
     ./
 
-4. How to know where I am now and open it in local VS Code?
+4.How to know where I am now and open it in local VS Code?
     Code .
+
+5.How to change name inside the same folder?
+type mv (stands for move)
+Example: change the name of Improve_Notes to Reading Notes as following:
+mv Improve_Notes Reading_Notes
+
+Note: mv can also change the location
+
+6.How to merge the change I made in GitHub with local VS Code?
+You will need to pull the change back to VS Code by typing following command in the VS Code Terminal:
+git pull origin main
