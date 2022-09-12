@@ -35,3 +35,10 @@ Note: mv can also change the location
 6.How to merge the change I made in GitHub with local VS Code?
 You will need to pull the change back to VS Code by typing following command in the VS Code Terminal:
 git pull origin main
+
+7. How to delete files in local computer?
+rm stands for remove
+rf stands for recursive force (a lot of time the computer does not want to delete things)
+
+Type following command to delete a file:
+rm -rf 'The Name Of The File That Needs To Be Deleted Here'
