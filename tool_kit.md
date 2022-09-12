@@ -1,5 +1,7 @@
 1.How to push updates into GitHub?
+
 - make change
+
 - on your computer top bar, chose File->Save (unless you set it to Auto Save already)
 
 - type in your local VS Code's Terminal: git status
@@ -15,7 +17,7 @@ if it is red color, then you need to save it again by doing git add .; if it is 
 (push change into GitHub finally)
 
 2. How to insert a photo?
-  ![](./Your Photo Name Here.JPG)
+  ![Description of what you want to show in your website link](./Your Photo Name Here.JPG)
 
 3. How to go back to home page?
     ./
