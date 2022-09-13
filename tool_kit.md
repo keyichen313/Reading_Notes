@@ -1,4 +1,5 @@
 # The most useful commands in Linux terminal
+&nbsp;
 
 <p>1.How to push updates into GitHub?
 
@@ -21,19 +22,21 @@
 - type in your local VS Code's Terminal: git push origin main
 
   (push change into GitHub finally)</p>
+&nbsp;
 
 <p>2.How to insert a photo?
 
   ![Description of what you want to show in your website link](./Your Photo Name Here.JPG)</p>
+&nbsp;
 
 <p>3.How to go back to home page?
   
   ./</p>
-
+&nbsp;
 <p>4.How to know where I am now and open it in local VS Code?
   
   Code .</p>
-
+&nbsp;
 <p>5.How to change name inside the same folder?
 type mv (stands for move)
 
@@ -41,12 +44,12 @@ Example: change the name of Improve_Notes to Reading Notes as following:
 mv Improve_Notes Reading_Notes
 
 Note: mv can also change the location</p>
-
+&nbsp;
 <p>6.How to merge the change I made in GitHub with local VS Code?
 
 You will need to pull the change back to VS Code by typing following command in the VS Code Terminal: 
 git pull origin main</P>
-
+&nbsp;
 <p>7.How to delete files in local computer?
 
 rm stands for remove
@@ -56,7 +59,7 @@ rf stands for recursive force (a lot of time the computer does not want to delet
 Type following command to delete a file:
 
 rm -rf 'The Name Of The File That Needs To Be Deleted Here'</P>
-
+&nbsp;
 <p>8.different creation
 
   - create a directory: mkdir
