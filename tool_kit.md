@@ -1,6 +1,6 @@
 # most useful commands in Linux terminal
 
-1.How to push updates into GitHub?
+<p>1.How to push updates into GitHub?
 
 - make change
 
@@ -20,19 +20,20 @@
 
 - type in your local VS Code's Terminal: git push origin main
 
-  (push change into GitHub finally)
+  (push change into GitHub finally)</p>
 
-2.How to insert a photo?
+
+<p>2.How to insert a photo?
 
   ![Description of what you want to show in your website link](./Your Photo Name Here.JPG)
-
-3.How to go back to home page?
+</p>
+<p>3.How to go back to home page?
   
-  ./
+  ./</p>
 
-4.How to know where I am now and open it in local VS Code?
+<p>4.How to know where I am now and open it in local VS Code?
   
-  Code .
+  Code .</p>
 
 5.How to change name inside the same folder?
 type mv (stands for move)
