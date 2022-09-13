@@ -22,11 +22,10 @@
 
   (push change into GitHub finally)</p>
 
-
 <p>2.How to insert a photo?
 
-  ![Description of what you want to show in your website link](./Your Photo Name Here.JPG)
-</p>
+  ![Description of what you want to show in your website link](./Your Photo Name Here.JPG)</p>
+
 <p>3.How to go back to home page?
   
   ./</p>
@@ -35,20 +34,20 @@
   
   Code .</p>
 
-5.How to change name inside the same folder?
+<p>5.How to change name inside the same folder?
 type mv (stands for move)
 
 Example: change the name of Improve_Notes to Reading Notes as following:
 mv Improve_Notes Reading_Notes
 
-Note: mv can also change the location
+Note: mv can also change the location</p>
 
-6.How to merge the change I made in GitHub with local VS Code?
+<p>6.How to merge the change I made in GitHub with local VS Code?
 
 You will need to pull the change back to VS Code by typing following command in the VS Code Terminal: 
-git pull origin main
+git pull origin main</P>
 
-7.How to delete files in local computer?
+<p>7.How to delete files in local computer?
 
 rm stands for remove
 
@@ -56,8 +55,8 @@ rf stands for recursive force (a lot of time the computer does not want to delet
 
 Type following command to delete a file:
 
-rm -rf 'The Name Of The File That Needs To Be Deleted Here'
+rm -rf 'The Name Of The File That Needs To Be Deleted Here'</P>
 
-8.different creation
+<p>8.different creation
   - create a directory: mkdir
-  - create a file: touch
+  - create a file: touch</p>
