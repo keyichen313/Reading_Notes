@@ -26,17 +26,26 @@
 
 <p>2.How to insert a photo?
 
-  ![Description of what you want to show in your website link](./Your Photo Name Here.JPG)</p>
+  ![Description of what you want to show in your website link](./Your Photo Name Here.JPG)
+  
+  for example: ![image](./image/sunset.jpg)
+</p>
 &nbsp;
 
 <p>3.How to go back to home page?
   
   ./</p>
 &nbsp;
+
 <p>4.How to know where I am now and open it in local VS Code?
   
-  Code .</p>
+  Code .
+
+  (Note: code . will open the VS Code with the folder that you are currently in in the computer terminal, 
+  
+  while the code will open the VS Code with the entire computer, without a specific folder)</P>
 &nbsp;
+
 <p>5.How to change name inside the same folder?
 type mv (stands for move)
 
@@ -45,11 +54,13 @@ mv Improve_Notes Reading_Notes
 
 Note: mv can also change the location</p>
 &nbsp;
+
 <p>6.How to merge the change I made in GitHub with local VS Code?
 
 You will need to pull the change back to VS Code by typing following command in the VS Code Terminal: 
 git pull origin main</P>
 &nbsp;
+
 <p>7.How to delete files in local computer?
 
 rm stands for remove
@@ -60,7 +71,43 @@ Type following command to delete a file:
 
 rm -rf 'The Name Of The File That Needs To Be Deleted Here'</P>
 &nbsp;
+
 <p>8.different creation
 
   - create a directory: mkdir
   - create a file: touch</p>
+&nbsp;
+
+<p>9.touch--> create a new file within your current directory
+
+  mkdir--> create a directory/folder
+</P>
+&nbsp;
+
+<p>10.pwd--> print working directory-->where am i?
+</P>
+&nbsp;
+
+<p>11.cd ..--> go back/up one directory
+cd-->change directory
+</P>
+&nbsp;
+
+<p>12.tree--> show all directories and files where I currently in
+</P>
+&nbsp;
+
+<p>13.ls -la -->
+including the hidden one
+
+ls -l -->
+Your list file in an actual list form with more information
+
+ls --> list the names only
+</P>
+&nbsp;
+
+<p>14.
+
+</P>
+&nbsp;
