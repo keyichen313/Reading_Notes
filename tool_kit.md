@@ -1,4 +1,4 @@
-# most useful commands in Linux terminal
+# The most useful commands in Linux terminal
 
 <p>1.How to push updates into GitHub?
 
@@ -58,5 +58,6 @@ Type following command to delete a file:
 rm -rf 'The Name Of The File That Needs To Be Deleted Here'</P>
 
 <p>8.different creation
+
   - create a directory: mkdir
   - create a file: touch</p>
