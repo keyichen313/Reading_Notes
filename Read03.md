@@ -20,6 +20,7 @@
 &nbsp;
 ### 2. Centralized Version Control(CVCS)
 **allows collaboration within a developer team**
+&nbsp;
 
     - can be accessed by various clients
 
@@ -30,6 +31,7 @@
 &nbsp;
 ### 3. Distributed Version Control(DVCS)
 **Addresses major vulnerability of CVS: the server as a single point of failure**
+&nbsp;
 
 > Situation 1: collaborators cannot work with each other on a file or save changes and new versions 
 
@@ -129,27 +131,151 @@ files in Git can reside in three main states:
 ## Setting up a Git Respository
 
 &nbsp;
+### 1.Importing
+>(1)Switching to the target project's directory: $ cd test (cd = change directory) 
+
+>(2)Use the git init command: $ git init
+
+>(3)To start tracking these repository files, perform an initial commit by typing the following:
+    >- $ git add *.c
+    >- $ git add LICENSE 
+    >- $ git commit -m "any message here"
+
+&nbsp;
+### 2.Cloning: copy an existing Git repository from a server to local
+>- $ git clone https://github.com/test 
+>- Or with another name: <br>$ git clone https://github.com/test mydirectory
+
+&nbsp;
 ## Workflow
+### 1.Local Repository Structure
+&nbsp; 
+
+&nbsp;
+### 2.Saving Changes
+>**_Tracked_**<br>Tracked files can be modified, unmodified, staged
+
+>**_Untracked_**<br>Untracked files were not in the last snapshot and do not currently reside in the staging area
+&nbsp;
+
+&nbsp;
+### 3.The Life Cycle of File Status
+&nbsp;
+- Git flags an editted file
+- You stage the modified file
+- you commit staged changes
+
+&nbsp;
+### 4.Check file Status
+$ git status
+&nbsp;
+
+&nbsp;
+### 5.Tracking and staging a New File
+
+>**_Single File_** <br>
++ git add filename
+
+>**_All Files_**<br>
++ git add *
+
+&nbsp;
+### 6.Committing a File
+>- git commit -m "made change x,y,z"
+
+&nbsp;
+### 7.Committing all Changes
+>- git commit -a
+
+&nbsp;
+### 8.Pushing Changes
+>- git push origin master
+
+&nbsp;
+### 9.Stashing Changes
+>- git  stash<br>
+(when you are not ready to commit changes but do not want to lose them either)
+>- git stash apply<br>
+(when you ready to comtinue working on the changes, this can retrieve the hidden changes.)
 
 
 &nbsp;
 ## Remote Respositories
 
+### 1.Cloned Repositories
+
+### 2.Seeing Your Remotes
+
+### 3.Adding Remotes
+
+### 4.Fetching
+
+### 5. Pushing
+
+### 6.Renaming/Removing Remotes
+
 
 &nbsp;
 ## Undoing Actions
+
+### 1.Commit Mistakes
+
+### 2.Untaging a File
+
+### 3.Undo a Committed Snapshot
+
+### 4.Unmodifying a File
+
+
 
 
 &nbsp;
 ## Branching
 
+enable collaborators to work simultaneously via multiple branches without affecting this main repository.
+
+### 1.Creating a New Branch
+>- $ git branch test
+
+### 2.Switching Branches
+>- $ git checkout test
+
+### 3.Create a Branch and Checkout
+>- $ git checkout -b test2<br>
+create a new branch "test2" and switch to it.
+
+### 4.list Branches
+>- $ git branch
+
 
 &nbsp;
 ## Merging
 
+### 1.Fast-Forward Merging
+
+### 2.No Fast-forward
+
+### 3.Three-way Merge
+
+### 4.Fetching and Merge
+
+### 5.Deleting Branches
+
+### 6.Merge Conflicts
+
+### 7.Preview Changes
+
+### 8.Listing Branches
+
+### 9.See Latest Commits
+
 
 &nbsp;
 ## Rebasing
+
+### 1.The Basics
+
+### 2.Rebase vs.Merge
 
 
 &nbsp;
@@ -159,6 +285,15 @@ files in Git can reside in three main states:
 &nbsp;
 ## Tagging
 
+### 1.Create a Tag
+>**_Lightweight_**<br>
+- Create Lightweight Tags
+>**_Annotated_**
+- Create Annotated Tags
+
+### 2.Tag Sharing
+
+### 3.Tag Checkout
 
 &nbsp;
 ## Aliases
@@ -171,9 +306,15 @@ files in Git can reside in three main states:
 &nbsp;
 ## Distributed Workflows
 
+### 1.Centralized Workflow
+
+### 2.Integration-Manager Workflow
 
 &nbsp;
 ## GitHub
 
+### 1.Getting Started
 
+### 2.Contributing to Projects
 
+### 3.General Workflow
