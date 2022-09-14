@@ -1,10 +1,10 @@
-# Reading Git Tutorial: A Comprehensive Guide 
+# Reading Git Tutorial: A Comprehensive Guide
 
 [link of article](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/)
 
 ## Version Control
 
-**a system that allows you revisit various versions of a file by recording changes**
+**a system that allows you revisit various versions of a file by recording changes.**
 
     - revert a file to previous version
 
@@ -13,12 +13,15 @@
     - compare changes
 
 &nbsp;
+
 ### 1. Local Version Control
 
-**entails one database on your hard disk that stores changes to files**
+**entails one database on your hard disk that stores changes to files.**
 
 &nbsp;
+
 ### 2. Centralized Version Control(CVCS)
+
 **allows collaboration within a developer team**
 &nbsp;
 
@@ -29,29 +32,33 @@
     - give administrators much more control over divvying up revision privileges.
 
 &nbsp;
+
 ### 3. Distributed Version Control(DVCS)
+
 **Addresses major vulnerability of CVS: the server as a single point of failure**
 &nbsp;
 
-> Situation 1: collaborators cannot work with each other on a file or save changes and new versions 
-
+> Situation 1: collaborators cannot work with each other on a file or save changes and new versions.
 > Situation 2: if central database's hard disk is corrupted, the work will be lost
-    
+
     - allows clients to create mirrored repositories
 
     - multiple mirrored repositories allows programmers working with each other in various way to complete a joint project, which enables the use of various simultaneous workflows
 
 &nbsp;
+
 ### 4. So, What is Git?
-&nbsp;
->**_Snapshots_** <br>
-Git is a DVCS that stores data in a file system made up of snapshots
-
-- each time you save a changed version(commit), Git creates a snapshot of file and stores a reference to it.
 
 &nbsp;
->**_Local Operations_**<br>
-Git relies on local operations.
+>**_Snapshots_**
+>
+>Git is a DVCS that stores data in a file system made up of snapshots
+>>each time you save a changed version(commit), Git creates a snapshot of file and stores a reference to it.
+
+&nbsp;
+>**_Local Operations_**
+>
+>>Git relies on local operations.
 
 - Eliminating the need to fetch history information from the server.
 
@@ -109,6 +116,8 @@ files in Git can reside in three main states:
 &nbsp;
 ## Linux
 >**_Package Manager_**<br>
+>- for Fedora: $ sudo yum install git
+>- for Ubuntu: $ sudo apt-get install git
 
 >**_Git Website_**<br>
 
@@ -117,15 +126,27 @@ files in Git can reside in three main states:
 
 &nbsp;
 2.Initial Customization
+ >_configuration of Variables_:<br>
+    an inherent git tool called git config allows the setting of configuration variables that control aspects of Git's operation and look<br>
+
+ >_identify setting_<br>
+set the user name and email address that will be used for every Git commit
+- _git config --global user.name "Jane Smith"_
+- _git config --global user.email "example@email.com"_
 
 &nbsp;
-3.Default Text Editor
+3.Default Text Editor<br>
++ to configure a different text editor, such as Emacs, type:<br>
+_git config --global core.editor emacs_
 
 &nbsp;
-4.Check Settings
+4.Check Settings: _git config --list_
 
 &nbsp;
-5.Getting Help
+5.Getting Help: three ways to get more information on a particular command by accessing the manual:<br>
++ _git help command_<br>
++ _git command --help_<br>
++ _man git-command_<br>
 
 &nbsp;
 ## Setting up a Git Respository
@@ -317,4 +338,4 @@ create a new branch "test2" and switch to it.
 
 ### 2.Contributing to Projects
 
-### 3.General Workflow
+### 3.General Workflowrea
