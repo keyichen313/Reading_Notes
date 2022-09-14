@@ -1,7 +1,6 @@
 # The most useful commands in Linux terminal
-&nbsp;
 
-<p>1.How to push updates into GitHub?
+1.How to push updates into GitHub?
 
 - make change
 
@@ -21,93 +20,108 @@
 
 - type in your local VS Code's Terminal: git push origin main
 
-  (push change into GitHub finally)</p>
-&nbsp;
+  (push change into GitHub finally)
 
-<p>2.How to insert a photo?
+<br>
+2.How to insert a photo?
 
   ![Description of what you want to show in your website link](./Your Photo Name Here.JPG)
   
   for example: ![image](./image/sunset.jpg)
-</p>
-&nbsp;
 
-<p>3.How to go back to home page?
+<br>
+3.How to go back to home page?
+
+./
   
-  ./</p>
-&nbsp;
-
-<p>4.How to know where I am now and open it in local VS Code?
+<br> 
+4.How to know where I am now and open it in local VS Code?
   
   Code .
 
-  (Note: code . will open the VS Code with the folder that you are currently in in the computer terminal, 
-  
-  while the code will open the VS Code with the entire computer, without a specific folder)</P>
-&nbsp;
+  >(Note: code . will open the VS Code with the folder that you are currently in in the computer terminal,<br> 
+  while the code will open the VS Code with the entire computer, without a specific folder)
 
-<p>5.How to change name inside the same folder?
+<br>
+5.How to change name inside the same folder?
 type mv (stands for move)
 
 Example: change the name of Improve_Notes to Reading Notes as following:
 mv Improve_Notes Reading_Notes
 
-Note: mv can also change the location</p>
-&nbsp;
+Note: mv can also change the location
 
-<p>6.How to merge the change I made in GitHub with local VS Code?
+<br>
+6.How to merge the change I made in GitHub with local VS Code?
+  
+>You will need to pull the change back to VS Code by typing following command in the VS Code Terminal:<br>
+_git pull origin main_
 
-You will need to pull the change back to VS Code by typing following command in the VS Code Terminal: 
-git pull origin main</P>
-&nbsp;
+<br>
+7.How to delete files in local computer?
 
-<p>7.How to delete files in local computer?
+- rm stands for remove
 
-rm stands for remove
+- rf stands for recursive force (a lot of time the computer does not want to delete things)
 
-rf stands for recursive force (a lot of time the computer does not want to delete things)
+- Type following command to delete a file:
 
-Type following command to delete a file:
+  rm -rf 'The Name Of The File That Needs To Be Deleted Here'
 
-rm -rf 'The Name Of The File That Needs To Be Deleted Here'</P>
-&nbsp;
+<br>
+8.different creation
 
-<p>8.different creation
+- create a directory: mkdir
+- create a file: touch
 
-  - create a directory: mkdir
-  - create a file: touch</p>
-&nbsp;
-
-<p>9.touch--> create a new file within your current directory
+<br>
+9.touch--> create a new file within your current directory
 
   mkdir--> create a directory/folder
-</P>
-&nbsp;
 
-<p>10.pwd--> print working directory-->where am i?
-</P>
-&nbsp;
+<br>
+10.pwd--> print working directory-->where am i?
 
-<p>11.cd ..--> go back/up one directory
+<br>
+11.cd ..--> go back/up one directory
 cd-->change directory
-</P>
-&nbsp;
 
-<p>12.tree--> show all directories and files where I currently in
-</P>
-&nbsp;
+<br>
+12.tree--> show all directories and files where I currently in
 
-<p>13.ls -la -->
-including the hidden one
+<br>
+13. 
+    ls --> list the names only
 
-ls -l -->
-Your list file in an actual list form with more information
+    ls -l --> Your list file in an actual list form with more information
 
-ls --> list the names only
-</P>
-&nbsp;
+    ls -a --> list not only the name of the regular files, but also the names of the hidden files too.
+    
+    ls -la --> your regular and hidden files are all listed in detail information 
 
-<p>14.
+<br>
+14.Basic Command
 
-</P>
-&nbsp;
+- pwd: print working directory
+  - you are here
+- ls: list directory contents
+  - shows you what is inside the folder you are in
+- ls -a: list all (even hidden)
+  - shows all files, including hidden files
+- cd: change directory
+  - how you move to a new folder
+  - example: cd projects/courses
+- cd .. : change directory back one level
+  - moves you back one level in your folder structure
+- mkdir: make directory
+  - creates a new folder/directory
+- touch: create new file
+  - example: touch newfilename.md, touch newfile.html 
+
+folder/file notes
+
+folder and directory are the same,a collection of a notebook
+
+repository is a folder/directory that Git is paying attention to
+
+File is a single file, like a page in a note book
