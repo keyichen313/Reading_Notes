@@ -58,11 +58,9 @@
 &nbsp;
 >**_Local Operations_**
 >
->>Git relies on local operations.
-
-- Eliminating the need to fetch history information from the server.
-
-- Allows working without online or VPN
+>>Git relies on local operations.<br>
+>> Eliminating the need to fetch history information from the server.<br>
+>> Allows working without online or VPN
 
 &nbsp;
 >**_Tracking Changes_**<br>
@@ -75,20 +73,21 @@ Git minimize the possibility of irreversible damage to files.
 &nbsp;
 >**_States_**<br>
 files in Git can reside in three main states:
-- Committed: stored in local database
-
-- Modified: has been changed but not committed to the database
-
-- Stated: flagged a file's changed version to be committed in the next snapshot
+>> Committed: stored in local database<br>
+>> Modified: has been changed but not committed to the database<br>
+>> Stated: flagged a file's changed version to be committed in the next snapshot<br>
 
 &nbsp;
+
 ## History of Git
-**allows non-linear development via multiple branches, support large projects, possessed strong mechanisms preventing corruptions**
+
+allows non-linear development via multiple branches, support large projects, possessed strong mechanisms preventing corruptions.
 
 &nbsp;
 ## Getting Started
 
 ### Download Git
+
     Git can be installed in three ways:
     1. install as a package
 
@@ -115,43 +114,43 @@ files in Git can reside in three main states:
 
 &nbsp;
 ## Linux
+
 >**_Package Manager_**<br>
 >- for Fedora: $ sudo yum install git
 >- for Ubuntu: $ sudo apt-get install git
 
+&nbsp;
 >**_Git Website_**<br>
 
 &nbsp;
-1.Graphical Clients
+>1.Graphical Clients<br>
 
-&nbsp;
-2.Initial Customization
- >_configuration of Variables_:<br>
-    an inherent git tool called git config allows the setting of configuration variables that control aspects of Git's operation and look<br>
+>2.Initial Customization
+ >>**_configuration of Variables_**:<br>
+    an inherent git tool called git config allows the setting of configuration variables that control aspects of Git's operation and look <br>
 
- >_identify setting_<br>
-set the user name and email address that will be used for every Git commit
-- _git config --global user.name "Jane Smith"_
-- _git config --global user.email "example@email.com"_
+ >>**_identify setting_**<br>
+set the user name and email address that will be used for every Git commit<br>
+-_git config --global user.name "Jane Smith"_<br>
+-_git config --global user.email "example@email.com"_
 
-&nbsp;
-3.Default Text Editor<br>
-+ to configure a different text editor, such as Emacs, type:<br>
-_git config --global core.editor emacs_
+>3.Default Text Editor<br>
+ to configure a different text editor, such as Emacs, type:<br>
+    _git config --global core.editor emacs_
 
-&nbsp;
-4.Check Settings: _git config --list_
+>4.Check Settings: _git config --list_
 
-&nbsp;
-5.Getting Help: three ways to get more information on a particular command by accessing the manual:<br>
-+ _git help command_<br>
-+ _git command --help_<br>
-+ _man git-command_<br>
+>5.Getting Help: three ways to get more information on a particular command by accessing the manual:<br>
+-_git help command_<br>
+-_git command --help_<br>
+-_man git-command_<br>
 
-&nbsp;
+&nbsp; 
+
 ## Setting up a Git Respository
 
 &nbsp;
+
 ### 1.Importing
 >(1)Switching to the target project's directory: $ cd test (cd = change directory) 
 
@@ -169,29 +168,39 @@ _git config --global core.editor emacs_
 
 &nbsp;
 ## Workflow
+
 ### 1.Local Repository Structure
-&nbsp; 
+
+- Working Directory
+- Index
+- Head
 
 &nbsp;
+
 ### 2.Saving Changes
+
 >**_Tracked_**<br>Tracked files can be modified, unmodified, staged
 
 >**_Untracked_**<br>Untracked files were not in the last snapshot and do not currently reside in the staging area
 &nbsp;
 
 &nbsp;
+
 ### 3.The Life Cycle of File Status
-&nbsp;
+
 - Git flags an editted file
 - You stage the modified file
 - you commit staged changes
+&nbsp;
 
 &nbsp;
+
 ### 4.Check file Status
-$ git status
-&nbsp;
+
+_$ git status_
 
 &nbsp;
+
 ### 5.Tracking and staging a New File
 
 >**_Single File_** <br>
@@ -200,20 +209,26 @@ $ git status
 >**_All Files_**<br>
 + git add *
 
+After using these commands, files are tracked and staged for committing.
+
 &nbsp;
 ### 6.Committing a File
+
 >- git commit -m "made change x,y,z"
 
 &nbsp;
 ### 7.Committing all Changes
+
 >- git commit -a
 
 &nbsp;
 ### 8.Pushing Changes
+
 >- git push origin master
 
 &nbsp;
 ### 9.Stashing Changes
+
 >- git  stash<br>
 (when you are not ready to commit changes but do not want to lose them either)
 >- git stash apply<br>
@@ -221,22 +236,45 @@ $ git status
 
 
 &nbsp;
+
 ## Remote Respositories
 
 ### 1.Cloned Repositories
 
+> Git will automatically give the name "origin" to the server from which you cloned and the name "master" to your local branch.
+
 ### 2.Seeing Your Remotes
+
+>_git remote_: review the short names of all specified remote handles.<br>
+>_git remote -v_: view all the remote URLs next to their corresponding short names.
 
 ### 3.Adding Remotes
 
+>_git remote add shortname url_
+
 ### 4.Fetching
 
-### 5. Pushing
+>Fetching entails pulling data that you don't have from a remote project.
+>>_git fetch [remote-name]_ <br> 
+>>For cloned repositories, use _git fetch origin_ to pull down any new changes that were pushed to the server since you cloned or last fetched from it.
+
+### 5.Pushing
+>_git push [remote-name][branch-name]
 
 ### 6.Renaming/Removing Remotes
+>Rename
+>> git remote rename js jane (short name has been changed from js to jane)<br>
+>> git remote (list our existing remotes) <br>
+>> origin<br>
+>> jane<br>
 
+>Remove
+>>_git remote rm jane_ (git remote rm is to remove a remote)<BR>
+>>_git remote_
+>>_origin_
 
 &nbsp;
+
 ## Undoing Actions
 
 ### 1.Commit Mistakes
