@@ -260,3 +260,85 @@ objectName instanceof objectType
 19. Basic expressions
 
 20. Grouping Operator
+
+## Fifth Article: Functions
+
+1. Function declarations
+A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:
+
+<pre>The name of the function.
+A list of parameters to the function, enclosed in parentheses and separated by commas.
+The JavaScript statements that define the function, enclosed in curly brackets, { /* … */ }.
+</pre>
+
+<pre>
+Parameters are essentially passed to functions by value — so if the code within the body of a function assigns a completely new value to a parameter that was passed to the function, the change is not reflected globally or in the code which called that function.
+</pre>
+
+2. Calling functions
+Defining a function does not execute it. Defining it names the function and specifies what to do when the function is called.
+
+
+Calling the function actually performs the specified actions with the indicated parameters.
+
+3. Function scope
+Variables defined inside a function cannot be accessed from anywhere outside the function, because the variable is defined only in the scope of the function. However, a function can access all variables and functions defined inside the scope in which it is defined.
+
+In other words, a function defined in the global scope can access all variables defined in the global scope. A function defined inside another function can also access all variables defined in its parent function, and any other variables to which the parent function has access.
+
+4. Nested functions and closures
+
+- The inner function can be accessed only from statements in the outer function.
+- The inner function forms a closure: the inner function can use the arguments and variables of the outer function, while the outer function cannot use the arguments and variables of the inner function.
+
+5. Multiply-nested functions
+
+Functions can be multiply-nested. For example:
+
+- A function (A) contains a function (B), which itself contains a function (C).
+- Both functions B and C form closures here. So, B can access A, and C can access B.
+- In addition, since C can access B which can access A, C can also access A.
+
+6. Name conflicts
+
+When two arguments or variables in the scopes of a closure have the same name, there is a name conflict. 
+
+7. Closures
+
+Closures are one of the most powerful features of JavaScript. JavaScript allows for the nesting of functions and grants the inner function full access to all the variables and functions defined inside the outer function (and all other variables and functions that the outer function has access to).
+
+8. Predefined functions
+JavaScript has several top-level, built-in functions:
+
+- eval()
+The eval() method evaluates JavaScript code represented as a string.
+
+- isFinite()
+The global isFinite() function determines whether the passed value is a finite number. If needed, the parameter is first converted to a number.
+
+- isNaN()
+The isNaN() function determines whether a value is NaN or not. Note: coercion inside the isNaN function has interesting rules; you may alternatively want to use Number.isNaN() to determine if the value is Not-A-Number.
+
+- parseFloat()
+The parseFloat() function parses a string argument and returns a floating point number.
+
+- parseInt()
+The parseInt() function parses a string argument and returns an integer of the specified radix (the base in mathematical numeral systems).
+
+- decodeURI()
+The decodeURI() function decodes a Uniform Resource Identifier (URI) previously created by encodeURI or by a similar routine.
+
+- decodeURIComponent()
+The decodeURIComponent() method decodes a Uniform Resource Identifier (URI) component previously created by encodeURIComponent or by a similar routine.
+
+- encodeURI()
+The encodeURI() method encodes a Uniform Resource Identifier (URI) by replacing each instance of certain characters by one, two, three, or four escape sequences representing the UTF-8 encoding of the character (will only be four escape sequences for characters composed of two "surrogate" characters).
+
+- encodeURIComponent()
+The encodeURIComponent() method encodes a Uniform Resource Identifier (URI) component by replacing each instance of certain characters by one, two, three, or four escape sequences representing the UTF-8 encoding of the character (will only be four escape sequences for characters composed of two "surrogate" characters).
+
+- escape()
+The deprecated escape() method computes a new string in which certain characters have been replaced by a hexadecimal escape sequence. Use encodeURI or encodeURIComponent instead.
+
+- unescape()
+The deprecated unescape() method computes a new string in which hexadecimal escape sequences are replaced with the character that it represents. The escape sequences might be introduced by a function like escape. Because unescape() is deprecated, use decodeURI() or decodeURIComponent instead.
