@@ -9,4 +9,5 @@
 - [day 5 reading notes](./Read05.md)
 - [day 6 reading notes](./Read06.md)
 - [day 7 reading notes](./Read07.md)
+- [day 8 reading notes](./Read08.md)
 ![image](./image/sunset.jpg)
